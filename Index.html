@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Performance Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="office.py">
+</head>
+<body>
+    <h1>Player Performance Management System</h1>
+    <form action="/add_player" method="post">
+        <label for="player_name">Player Name:</label>
+        <input type="text" id="player_name" name="player_name">
+        <label for="goals_scored">Goals Scored:</label>
+        <input type="number" id="goals_scored" name="goals_scored">
+        <label for="assists">Assists:</label>
+        <input type="number" id="assists" name="assists">
+        <button type="submit">Add Player</button>
+    </form>
+    <div id="player_list">
+        <!-- Player data will be displayed here -->
+    </div>
+</body>
+</html>
